@@ -3,23 +3,13 @@
 
 <?php
 
-$menuItems = include "config.php";
+    $menuItems = include "config.php";
 
-foreach ($menuItems as $key => $value){
-    echo "!!!!!!!!!!!!!!!!!!";
-    //$resultStr = '<li><a href="'.$key.'"></a></li>';
-    //echo $resultStr.'<br>';
-}
-
-
-/*
- *<ul>
-
-    <li><a href="about.php"><span>Главная</span></a></li>
-    <li>О нас</li>
-    <li>Контакты</li>
-
-</ul>
-*/
+    echo "<ul>";
+    foreach ($menuItems as $key => $value){
+        $resultStr = '<li><a href="'.$key.'">'.$value.'</a></li>';
+        echo $resultStr;
+    }
+    echo "</ul>";
 
 ?>
