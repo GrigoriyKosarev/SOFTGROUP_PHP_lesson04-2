@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 
+<?php include ("header.php");?>
+
 <span>
 
     Створити сайт, який містить файли header.php, footer.php та інші файли з назвами сторінок
@@ -12,3 +14,7 @@
 
 </span>
 
+</div>
+
+</body>
+</html>

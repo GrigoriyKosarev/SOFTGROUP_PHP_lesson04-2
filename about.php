@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 
+<?php include ("header.php");?>
+
 <section class="contacts">
     <ul>
         <li>Мій контактний телефон:</li>
@@ -18,3 +20,8 @@
         <li>grigoriy.kosarev</li>
     </ul>
 </section>
+
+</div>
+
+</body>
+</html>

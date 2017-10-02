@@ -3,7 +3,7 @@
 
     <?php include ("header.php");?>
 
-    <div id="content"></div>
+    <div class = "content"></div>
 
     <?php include ("footer.php");?>
 
