@@ -1,14 +1,16 @@
 body{
     background-color: #f9f9f9;
 }
-
-header{
-    margin: 0;
+.wrapper{
+    width: 966px;
+    padding: 50px 50px 100% 50px;
+    margin:0 auto 0 auto;
     background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-.menu a{
-    text-decoration: none;
-    color: #ffffff;
+header{
+    margin: 0px 0 40px 0;
+    background-color: #ffffff;
 }
 .menu ul{
     margin-top: 40px;
@@ -29,5 +31,62 @@ header{
 .menu ul li:hover{
     background-color: #000000;
 }
-
-
+.left_menu{
+    float: left;
+    margin: 0 auto;
+    color: #adacac;
+}
+.left_menu ul{
+    border-top: 2px solid #e1e1e1;
+    border-left: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+}
+.left_menu ul li{
+    padding-left: 20px;
+    padding-right: 80px;
+    border-bottom: 2px solid #e1e1e1;
+    line-height: 30px;
+}
+.left_menu ul li:hover{
+    padding-left: 40px;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+.content{
+    margin: 40px 0 0 280px;
+}
+.content_img{
+    border: 2px solid #e1e1e1;
+}
+.content img{
+    display: flex;
+    margin: 0 auto;
+}
+.text{
+    margin: 40px 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+footer .menu{
+    position: relative;
+    overflow: hidden;
+    background-color: #e1e1e1;
+}
+footer .menu ul{
+    float: left;
+    margin-top: 0;
+    background-color: #e1e1e1;
+}
+footer .menu ul li{
+    color: #000000;
+}
+footer .menu ul li:hover{
+    background-color: #e1e1e1;
+}
+footer .copyright{
+    float: right;
+    display: block;
+    margin-right: 20px;
+    line-height: 40px;
+    background-color: #e1e1e1;
+}
